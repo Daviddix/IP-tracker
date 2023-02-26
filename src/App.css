@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container-class{
+    width:90%;
+    max-width: 100rem;
+}
+
+.top-section{
+    padding: .5rem 0rem 2rem;
+    background: url("./assets/pattern-bg-mobile.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 30rem;
+}
+
+.top-section .header{
+    margin: 2rem auto;
+    max-width: fit-content;
+    font-size: 2.5rem;
+    color:white;
+}
+
+.top-section .input-container{
+    width:90%;
+    max-width: 50rem;
+    border-radius: 21rem;
+    overflow: hidden;
+    margin:0 auto 2rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    -webkit-border-radius: 21rem;
+    -moz-border-radius: 21rem;
+    -ms-border-radius: 21rem;
+    -o-border-radius: 21rem;
+}
+
+.input-container input{    
+    flex:1;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.input-container .arrow-div{
+    background-color: black;
+    display: grid;
+    place-content: center;
+    width: 6rem;
+    border: none;
+    cursor: pointer;
+}
+
+.top-section .info-container{
+    width:90%;
+    max-width: 100rem;
+    background-color: white;
+    margin:0 auto 2rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 10%);
+    box-shadow: 0 .8rem 2rem rgba(0, 0, 0, 0.226);
+    -webkit-transform: translate(-50%, 10%);
+    -moz-transform: translate(-50%, 10%);
+    -ms-transform: translate(-50%, 10%);
+    -o-transform: translate(-50%, 10%);
+}
+
+.info-container p, .info-container h1{
+    text-align: center;
+}
+
+.info-container > div{
+    margin-bottom: 2rem;
+}
+
+.info-container p{
+    font-weight: bold;
+    color:grey;
+    margin: 0 0 .5rem;
+}
+
+@media screen and (min-width:800px) {
+
+    
+    .top-section{
+        min-height: 22rem;
+        background-image: url("./assets/pattern-bg-desktop.png"); 
+    }
+
+    .top-section .info-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+    }
+
+    .info-container > div:not(:last-child){
+        border-right: 1px solid rgba(78, 78, 78, 0.247);
+    }
+
+    .info-container > div{
+        margin-bottom: 1rem;
+    }
+}
