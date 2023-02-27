@@ -3,17 +3,12 @@ import TopSection from './components/TopSection'
 import { MapContainer, TileLayer, Marker, Popup, useMap  } from 'react-leaflet'
 import { useState,useEffect,useRef } from 'react'
 import L from "leaflet"
+import { myIcon } from './components/myIcon'
 
 function App() {
    const [long, setLong] = useState("")
    const [lat, setLat] = useState("")
    const mapRef = useRef(null)
-  
-   const myIcon = L.icon({
-    iconUrl : "/src/assets/icon-location.svg",
-    iconSize : [30, 35],
-    iconAnchor: [15, 15]
-   })
    
    useEffect(()=>{
     mapRef.current?.setView([lat,long])

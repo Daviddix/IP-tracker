@@ -30,7 +30,7 @@ function TopSection({setLong, setLat}) {
     setError(false)
     setLoading(true)   
     //checks if its a domain or ip address
-    if (/^www/.test(ip)) {
+    if (/^www/i.test(ip)) {
       url = urlDomain
     }else{
       url = urlIp
