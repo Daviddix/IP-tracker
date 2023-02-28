@@ -43,7 +43,7 @@ Users are able to:
 ## My process
 I started with building the skeleton of the app with JSX only, I then used CSS for the styling of the app. 
 I added functionality with ReactJS; states, useEffect,props and so on. 
-the IP data is gotten from the [geoify API](https://www.geo.ipfy.org) while the map is rendered with the help of [leaflet & leaflet React](https://react-leaflet.js.org/docs)
+the IP data is gotten from the [geoipfy API](https://www.geo.ipfy.org) while the map is rendered with the help of [leaflet & leaflet React](https://react-leaflet.js.org/docs)
 
 ### Built with
 
@@ -53,7 +53,7 @@ the IP data is gotten from the [geoify API](https://www.geo.ipfy.org) while the 
 - ReactJS
 - leaflet 
 - leaflet react
-- geoify
+- geoipfy
 
 ## Author
 - Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
