@@ -51,6 +51,9 @@ the IP data is gotten from the [geoify API](https://www.geo.ipfy.org) while the 
 - CSS custom properties
 - Mobile-first workflow
 - ReactJS
+- leaflet 
+- leaflet react
+- geoify
 
 ## Author
 - Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
