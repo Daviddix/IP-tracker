@@ -38,7 +38,7 @@ Users are able to:
 
 ### Link
 
-- Live Site URL: [IP address tracker](https://remindr-webapp.netlify.app)
+- Live Site URL: [IP address tracker](https://ip-trackrr.netlify.app)
 
 ## My process
 I started with building the skeleton of the app with JSX only, I then used CSS for the styling of the app. 
