@@ -10,23 +10,33 @@ function InfoContainer({ipData, loading, error}) {
     :
     <>
     <div className="data-ip">
-      <p>IP ADDRESS</p>
+      <div className="ip-text">
+        <p>IP ADDRESS</p>
       <h1>{ipData.ip}</h1>
+      </div>
+      
     </div>
 
     <div className="data-location">
-      <p>LOCATION</p>
-      <h1>{ipData.location?.city}, {ipData.location?.country}</h1>
+      <div className="location-text"><p>LOCATION</p>
+      <h1>{ipData.location?.city}, {ipData.location?.country}</h1></div>
+      
     </div>
 
     <div className="data-timezone">
-      <p>TIMEZONE</p>
+      <div className="timezone-text">
+        <p>TIMEZONE</p>
       <h1>UTC {ipData.location?.timezone}</h1>
+      </div>
+      
     </div>
 
     <div className="data-isp">
-      <p>ISP</p>
+      <div className="isp-text">
+        <p>ISP</p>
       <h1>{ipData.isp}</h1>
+      </div>
+      
     </div>
     </>
     }

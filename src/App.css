@@ -118,6 +118,7 @@ main{
     font-weight: bold;
     color:grey;
     margin: 0 0 .5rem;
+    letter-spacing: 1px;
 }
 
 .info-container div h1{
@@ -169,5 +170,14 @@ h1.error{
     .info-container > div{
         margin-bottom: 1rem;
         margin-left: .5rem;
+    }
+
+    .info-container > div > div{
+        max-width: fit-content;
+        margin: auto;
+    }
+
+    .info-container > div > div> p{
+        text-align: left;
     }
 }
