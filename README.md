@@ -56,5 +56,5 @@ the IP data is gotten from the [geoipfy API](https://www.geo.ipfy.org) while the
 - geoipfy
 
 ## Author
-- Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
+- Twitter - [Emmanuel Nsikan-david](https://www.twitter.com/dixx_david)
 
