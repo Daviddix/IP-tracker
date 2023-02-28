@@ -123,7 +123,6 @@ main{
 
 .info-container div h1{
     color: hsl(0, 0%, 17%);
-    text-align: left;
 }
 
 .bottom-section {
@@ -178,7 +177,9 @@ h1.error{
         margin: auto;
     }
 
-    .info-container > div > div> p{
+    .info-container > div > div> p,
+    .info-container > div > div> h1
+    {
         text-align: left;
     }
 }
