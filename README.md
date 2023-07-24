@@ -32,9 +32,9 @@ Users are able to:
 
 ### Screenshot
 
-![](./src/assets/ip.png)
-![](./src/assets/1p2.png)
-![](./src/assets/ip3.png)
+![Twitter IP details](./src/assets/ip.PNG)
+![loading IP data](./src/assets/1p2.PNG)
+![Google's IP details](./src/assets/ip3.PNG)
 
 ### Link
 
@@ -47,10 +47,9 @@ the IP data is gotten from the [geoipfy API](https://www.geo.ipfy.org) while the
 
 ### Built with
 
-- JSX
-- CSS custom properties
 - Mobile-first workflow
 - ReactJS
+- CSS
 - leaflet 
 - leaflet react
 - geoipfy
